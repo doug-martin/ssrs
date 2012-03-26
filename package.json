@@ -1,0 +1,30 @@
+{
+    "name": "ssrs",
+    "description": "Wrapper around Sql Server reporting service",
+    "version": "0.0.1",
+    "keywords" : ["SQL Server", "reporting service", "reporting"],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:pollenware/ssrs.git"
+    },
+    "homepage": "http://github.com/Pollenware/ssrs",
+    "author": "Doug Martin (http://pollenware.github.com)",
+    "main": "index.js",
+    "dependencies" :
+    {
+        "comb" : "0.1.0",
+        "csv" : "0.0.11",
+        "request" : "2.9.153"
+    },
+    "devDependencies" :
+    {
+        "vows" : "0.6.1"
+    },
+    "directories": {
+        "lib": "lib"
+    },
+    "bin": { "patio": "./bin/patio" },
+    "engines": {
+        "node": ">= 0.6.0"
+    }
+}
