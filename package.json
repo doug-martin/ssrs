@@ -18,12 +18,11 @@
     },
     "devDependencies" :
     {
-        "vows" : "0.6.1"
+        "it" : ">=0.0.1"
     },
     "directories": {
         "lib": "lib"
     },
-    "bin": { "patio": "./bin/patio" },
     "engines": {
         "node": ">= 0.6.0"
     }
