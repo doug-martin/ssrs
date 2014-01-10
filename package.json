@@ -1,7 +1,7 @@
 {
     "name": "ssrs",
     "description": "Wrapper around Sql Server reporting service",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords" : ["SQL Server", "reporting service", "reporting"],
     "repository": {
         "type": "git",
@@ -12,8 +12,9 @@
     "main": "index.js",
     "dependencies" :
     {
-        "comb" : "0.1.0",
+        "comb" : ">=0.1.1",
         "csv" : "0.0.11",
+        "xml2json" : "0.2.4",
         "request" : "2.9.153"
     },
     "devDependencies" :
